@@ -49,10 +49,10 @@
 
                     <!-- ========== SOCIAL MEDIA LINKS ========== -->
                     <div class="col-md-6 col-sm-6 text-right hidden-xs">
-                        <a href="#" class="social-btn"><i class="fa fa-facebook"></i></a>
-                        <a href="#" class="social-btn"><i class="fa fa-twitter"></i></a>
-                        <a href="#" class="social-btn"><i class="fa fa-instagram"></i></a>
-                        <a href="#" class="social-btn"><i class="fa fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/WMProduccionesDJ" target="blank" class="social-btn"><i class="fa fa-facebook"></i></a>
+                        
+                        <a href="https://www.instagram.com/wmproduccionesdj/" target="blank" class="social-btn"><i class="fa fa-instagram"></i></a>
+                        <a href="#" target="blank" class="social-btn"><i class="fa fa-youtube"></i></a>
                     </div> <!-- end col-md-6 -->
                 </div> <!-- end row -->
             </div> <!-- end container -->
@@ -73,11 +73,14 @@
 
 
 
-                                <small>Somos una empresa dedicada a ofrecer servicios de DJ y Producción de Bodas, eventos sociales, empresariales y ambientación profesional para todo tipo de eventos. Contamos con personal capacitado y equipo 100% profesional para satisfacer al máximo las necesidades de todos nuestros clientes.
+                                <small>
+
+                                Somos una empresa dedicada a ofrecer servicios de DJ y Producción de Bodas, eventos sociales, empresariales y ambientación profesional para todo tipo de eventos. Contamos con personal capacitado y equipo 100% profesional para satisfacer al máximo las necesidades de todos nuestros clientes.
                                 <br>
                                 <br>
 
                                 Estamos remodelando nuestra página web, sucríbete aquí para recibir noticias y ofertas exclusivas para tí. 
+
                                 </small>
 
                                 </h2>
@@ -93,10 +96,52 @@
                                 <div class="clearfix"></div>
 
                                 <!-- ========== NOTIFY FORM ========== -->
+
+
+
+
+
+
+                                <!-- Begin MailChimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+    #mc_embed_signup{background: rgba(0,0,0,0); clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+    /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="//wmproduccionesdj.us13.list-manage.com/subscribe/post?u=cf48488cd4946d53c1571208d&amp;id=bf7f824472" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate geoss" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+    <label for="mce-EMAIL"></label>
+    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_cf48488cd4946d53c1571208d_bf7f824472" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Suscribete" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+
+
+
+
+
+
+<!--End mc_embed_sig
+
+
+
+
                                 <form class="notify-div mc-form">
                                     <input type="email" name="email" value="" placeholder="Email" required=""/>
                                     <button type="submit" class="sr-btn white-btn"><span class="icon ion-ios-paperplane"></span>Suscribime</button>
-                                </form> <!-- end form -->
+                                </form> 
+
+
+
+end form -->
+
+
+
 
                             </div> <!-- end col-md-12 -->
                         </div> <!-- end row -->
@@ -110,22 +155,7 @@
 
 
 
-
-
-
-
-
-
-
-
         <!-- ========== 
-
-
-
-
-
-
-
 
 
 
@@ -152,39 +182,30 @@
             <p class="text-center"><a href="index.html" title="View Other Demos">View All Demos</a></p>
         </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         SWITCHER ========== -->
 
+<script src="jquery.ajaxchimp.min.js"></script> <!-- For ajax Mailchimp submission -->
+<script src="sweetalert.min.js"></script> <!-- For js alerts -->
 
 
 
 
-
-
-
-
-
-
-
-
+       
+            
+        
 
     	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     	<script>
+
+
+
+        $('.mc-form').ajaxChimp({
+                url: '//wmproduccionesdj.us13.list-manage.com/subscribe/post?u=cf48488cd4946d53c1571208d&amp;id=bf7f824472', 
+                callback: callbackFunction
+                });
+
+
+        
     		// (function(b, o, i, l, e, r) {
     		// 	b.GoogleAnalyticsObject = l;
     		// 	b[l] || (b[l] =
